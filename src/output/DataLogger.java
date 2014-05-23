@@ -26,7 +26,7 @@ public class DataLogger {
 
 	private BufferedWriter fop = null;
 	private FileWriter file;
-	public static final String folder = "D://Pieter//data//";
+	public static final String folder = "C://Gebruikers//Tom//data//";
 	private DecimalFormat df = (DecimalFormat) NumberFormat.getNumberInstance(Constant.LOCATION);
 	private final int rows = 23;
 	private boolean logging;

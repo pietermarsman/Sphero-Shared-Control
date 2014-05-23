@@ -30,7 +30,7 @@ public class Log {
 		log.setLevel(Level.INFO);
 		Handler handler = null;
 		try {
-			String folder = "D://Pieter//logs//";
+			String folder = "C://Gebruikers//Tom//logs//";
 			String filename = folder + new Date().getTime() + ".log";
 			(new File(folder)).mkdirs();
 			handler = new FileHandler(filename);

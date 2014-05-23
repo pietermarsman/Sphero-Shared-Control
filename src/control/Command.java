@@ -48,7 +48,7 @@ public class Command {
 	}
 
 	public String toString() {
-		return message + ": " + velocity + ", " + direction + "ï¿½";
+		return message + ": " + velocity + ", " + direction + "°";
 	}
 
 	/**
@@ -95,9 +95,9 @@ public class Command {
 	 * @param c2
 	 * @return Average between two commands
 	 */
-	public static Command sum(Command c1, Command c2) {
-		double x = c1.getX() + c2.getX();
-		double y = c1.getY() + c2.getY();
+	public static Command average(Command c1, Command c2) {
+		double x = 0.5 * (c1.getX() + c2.getX());
+		double y = -0.5 * (c1.getY() + c2.getY());
 		return Command.fromCartesian(x, y);
 	}
 }

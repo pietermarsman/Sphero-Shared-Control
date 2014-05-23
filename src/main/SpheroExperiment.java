@@ -54,6 +54,10 @@ public class SpheroExperiment extends Thread {
 	private long startTime;
 	private ExperimentState state;
 
+	// TODO goals vast tapen
+	// TODO ondergrond vervangen voor zwart
+	// TODO TEST: immediatly display rating while selecting
+
 	public static void main(String[] args) {
 		SpheroExperiment test = new SpheroExperiment();
 	}
@@ -67,7 +71,7 @@ public class SpheroExperiment extends Thread {
 		// Create logger for extracting data
 		dataLogger = new DataLogger();
 		// Starts a thread that initialize the webcam
-		is = new WebcamVideoFile();
+		is = new WebcamLaptop(); //WebcamVideoFile was het eerst
 		// Initialize all variables that are used to follow sphero
 		sphero = new Sphero();
 		// Initialize all variables that are used to detect the ground

@@ -83,9 +83,8 @@ public class ScreenListener implements ChangeListener, ActionListener, MouseList
 	public void actionPerformed(ActionEvent e) {
 		// Connect to Sphero and callibrate
 		if (e.getActionCommand() == "Connect") {
-            SpheroExperiment.Log.log(Level.FINE, "Connect to Sphero button clicked");
 			boolean connected = false;
-			for (int i = 0; i < 5 && !connected; i++) {
+			while (!connected) {
 				connected = spheroConn.connect();
 				if (connected) {
 					scf.removeState("Connection failed");
@@ -93,11 +92,10 @@ public class ScreenListener implements ChangeListener, ActionListener, MouseList
 				} else
 					scf.addState("Connection failed");
 			}
-            if (connected) {
-                boolean calibrated = spheroConn.calibrate(sphero, is, scf, interpreter, image);
-                if (calibrated)
-                    scf.addState("Calibrated");
-            }
+			boolean calibrated = spheroConn.calibrate(sphero, is, scf, interpreter, image);
+			if (false)
+				scf.addState("Calibrated");
+			SpheroExperiment.Log.log(Level.FINE, "Connect to Sphero button clicked");
 		}
 
 		// Connect to human device (tablet)
@@ -136,7 +134,7 @@ public class ScreenListener implements ChangeListener, ActionListener, MouseList
 			mainClass.pause();
 			scf.removeState("Started");
 			scf.addState("Paused");
-			spheroConn.sendCommand(new Command(0, 0));
+			// spheroConn.sendCommand(new Command(0, 0));
 			dataLogger.pauseExpiriment();
 			SpheroExperiment.Log.log(Level.FINE, "Pause button clicked");
 		}
@@ -163,8 +161,8 @@ public class ScreenListener implements ChangeListener, ActionListener, MouseList
 		mainClass.exit();
 		if (human != null)
 			human.exit();
-		if (spheroConn != null)
-			spheroConn.exit();
+//		if (spheroConn != null)
+//			spheroConn.exit();
 		is.exit();
 		dataLogger.close();
 		vw.exit();
