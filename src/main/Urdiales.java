@@ -69,7 +69,7 @@ public class Urdiales {
 					human.getDirection());
 			Command c2 = new Command(computer.getVelocity() * weightComputer,
 					computer.getDirection());
-			Command result = Command.sum(c1, c2);//MOGELIJKE FOUT, MOET OPTELLEN
+			Command result = Command.sum(c1, c2);
 			velocityFilter = StaticMethods.filter(velocityFilter, result.getVelocity(), Constant.FILTER_COMMAND_VELOCITY);
 			return result;
 		} else {

@@ -7,11 +7,12 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
+    <orderEntry type="library" name="sphero" level="project" />
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://C:/lib/sphero/sphero.jar!/" />
+          <root url="jar://C:/lib/javacv-bin/javacv.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -21,15 +22,6 @@
       <library>
         <CLASSES>
           <root url="jar://C:/lib/javacv-bin/javacpp.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/lib/javacv-bin/javacv.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

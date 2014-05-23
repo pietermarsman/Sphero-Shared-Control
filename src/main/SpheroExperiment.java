@@ -37,7 +37,7 @@ public class SpheroExperiment extends Thread {
 	private InputStream is;
 	private Sphero sphero;
 	private Ground ground;
-//	private SpheroConnection spheroConn;
+	private SpheroConnection spheroConn;
 	private HumanControl human;
 	private ScreenCanvasFrame scf;
 	private ScreenListener sl;
@@ -53,10 +53,6 @@ public class SpheroExperiment extends Thread {
 	private int pathCounter;
 	private long startTime;
 	private ExperimentState state;
-
-	// TODO goals vast tapen
-	// TODO ondergrond vervangen voor zwart
-	// TODO TEST: immediatly display rating while selecting
 
 	public static void main(String[] args) {
 		SpheroExperiment test = new SpheroExperiment();
@@ -77,7 +73,7 @@ public class SpheroExperiment extends Thread {
 		// Initialize all variables that are used to detect the ground
 		ground = new Ground();
 		// Connects to the bluetooth device sphero
-//		spheroConn = new SpheroConnection();
+		spheroConn = new SpheroConnection();
 		// // Set up a bluetooth connection to a device for steering sphero and
 		// waits for signals to be send (thread)
 		human = new HumanControl(this);
@@ -94,7 +90,7 @@ public class SpheroExperiment extends Thread {
 		// Create a video recorder
 		videoWriter = new VideoWriter(image, goals);
 		// Initialize the screen listener by loading all the references
-		sl = new ScreenListener(is, null, human, interpreter, sphero, this, goals, image, ground, dataLogger,
+		sl = new ScreenListener(is, spheroConn, human, interpreter, sphero, this, goals, image, ground, dataLogger,
 				videoWriter);
 		// Opens a screen to display the webcam feed
 		scf = new ScreenCanvasFrame(sphero, ground, sl, brooks, goals, image, this);
@@ -138,17 +134,17 @@ public class SpheroExperiment extends Thread {
 					boolean goalReached = goals.updateGoal(sphero);
 					if (goalReached)
 						goalReached();
-//					sendCommand(hcCommand, scCommand, sharedCommand);
+					sendCommand(hcCommand, scCommand, sharedCommand);
 					// Save the image to a video file for later validation
 					videoWriter.record(image.getImg());
 					// Log all information into a csv file
 					dataLogger.log(urdiales, hcCommand, scCommand, sharedCommand, goalReached, goals, state, sphero,
 							startTime);
 					} else {
-//						sendCommand(null, null, null);
+						sendCommand(null, null, null);
 					}
 				} else {
-//					sendCommand(null, null, null);
+					sendCommand(null, null, null);
 				}
 				// Refresh the image that is displayed to the expiriment
 				// leader
@@ -193,14 +189,14 @@ public class SpheroExperiment extends Thread {
 	}
 
 	private void sendCommand(Command hcCommand, Command scCommand, Command sharedCommand) {
-//		if (spheroConn.ready()) {
-//			if (state != ExperimentState.HUMAN_FULL ) // && state != ExperimentState.HUMAN_NONE)
-//				spheroConn.sendCommand(sharedCommand);
-//			else if (state == ExperimentState.HUMAN_FULL)
-//				spheroConn.sendCommand(hcCommand);
+		if (spheroConn.ready()) {
+			if (state != ExperimentState.HUMAN_FULL ) // && state != ExperimentState.HUMAN_NONE)
+				spheroConn.sendCommand(sharedCommand);
+			else if (state == ExperimentState.HUMAN_FULL)
+				spheroConn.sendCommand(hcCommand);
 //			else if (state == ExperimentState.HUMAN_NONE)
 //				spheroConn.sendCommand(scCommand);
-//		}
+		}
 	}
 
 	/**
@@ -221,8 +217,8 @@ public class SpheroExperiment extends Thread {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-//		if (spheroConn.ready())
-//			spheroConn.stopMoving();
+		if (spheroConn.ready())
+			spheroConn.stopMoving();
 	}
 
 	/**

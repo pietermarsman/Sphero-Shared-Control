@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sphero">
+    <CLASSES>
+      <root url="jar://C:/lib/sphero/sphero.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
