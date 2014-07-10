@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/feedbackProgressLeft"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:gravity="center"
+            android:textSize="@dimen/textFeedbackSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/out"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/default_margin"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/textFeedbackSize"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/feedbackProgressRight"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textSize="@dimen/textFeedbackSize"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:baselineAligned="false" >
+
+        <com.example.connecttest.VerticalSeekBar
+            android:id="@+id/verticalSeekBarLeft"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="@dimen/default_margin"
+            android:layout_marginTop="@dimen/default_margin"
+            android:max="7"
+            android:progress="2"
+            android:progressDrawable="@drawable/progressbar" />
+
+        <FrameLayout
+            android:id="@+id/userFeedback"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:layout_weight="10" >
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <View
+                    android:layout_width="3dp"
+                    android:layout_height="@dimen/fixation_cross_size"
+                    android:layout_gravity="center"
+                    android:background="@drawable/line_vertical" />
+
+                <View
+                    android:layout_width="@dimen/fixation_cross_size"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/line_horizontal" />
+
+                <TextView
+                    android:id="@+id/textGoal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/default_margin"
+                    android:text="A"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_goal_size" />
+
+                <TextView
+                    android:id="@+id/textGoal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_margin="@dimen/default_margin"
+                    android:text="B"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_goal_size" />
+
+                <TextView
+                    android:id="@+id/textGoal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_margin="@dimen/default_margin"
+                    android:text="C"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/text_goal_size" />
+
+            </FrameLayout>
+
+            <View
+                android:id="@+id/feedbackCircle"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:background="@drawable/circle" />
+        </FrameLayout>
+
+        <com.example.connecttest.VerticalSeekBar
+            android:id="@+id/verticalSeekBarRight"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:max="7"
+            android:progress="2"
+            android:progressDrawable="@drawable/progressbar" />
+    </LinearLayout>
+
+</LinearLayout>
