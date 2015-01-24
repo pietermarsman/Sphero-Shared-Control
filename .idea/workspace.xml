@@ -67,7 +67,7 @@
       <file leaf-file-name="SpheroExperiment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/SpheroExperiment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="19" selection-start="6443" selection-end="6443" vertical-scroll-proportion="-112.46154" vertical-offset="0" max-vertical-offset="3825">
+            <state line="201" column="19" selection-start="6597" selection-end="6597" vertical-scroll-proportion="0.0" vertical-offset="3417" max-vertical-offset="4420">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
       <file leaf-file-name="ScreenListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/output/ScreenListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="42" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3349">
+            <state line="87" column="42" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="3791">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="Urdiales.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/Urdiales.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="26" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="349" max-vertical-offset="2380">
+            <state line="73" column="26" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="2516">
               <folding />
             </state>
           </provider>
@@ -94,7 +94,7 @@
       <file leaf-file-name="SpheroConnection.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/control/SpheroConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="38" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.5839695" vertical-offset="255" max-vertical-offset="2669">
+            <state line="58" column="38" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-0.6498471" vertical-offset="986" max-vertical-offset="2669">
               <folding />
             </state>
           </provider>
@@ -103,7 +103,7 @@
       <file leaf-file-name="Command.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/control/Command.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="16" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0" vertical-offset="1131" max-vertical-offset="1785">
+            <state line="93" column="16" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -148,7 +148,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -159,102 +159,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webcam" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sphero-Shared-Control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToClass.includeLibraries" value="false" />
@@ -322,6 +227,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -347,19 +265,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -451,19 +356,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17205882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -487,6 +392,41 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/SpheroExperiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="197" column="19" selection-start="6443" selection-end="6443" vertical-scroll-proportion="0.0" vertical-offset="3349" max-vertical-offset="4352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/output/ScreenListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="42" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" vertical-offset="1496" max-vertical-offset="3825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Urdiales.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="26" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="2516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/SpheroConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="38" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="2669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/control/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="16" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SpheroExperiment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="135" column="48" selection-start="4472" selection-end="4473" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="4420">
@@ -517,30 +457,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/output/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="43" selection-start="717" selection-end="717" vertical-scroll-proportion="0.6360856" vertical-offset="26" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="35" column="43" selection-start="717" selection-end="717" vertical-scroll-proportion="0.6360856" vertical-offset="26" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/control/SpheroController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="25" selection-start="122" selection-end="122" vertical-scroll-proportion="0.18195719" vertical-offset="0" max-vertical-offset="654">
-          <folding />
-        </state>
+        <state line="7" column="25" selection-start="122" selection-end="122" vertical-scroll-proportion="0.18195719" vertical-offset="0" max-vertical-offset="654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Urdiales.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="26" selection-start="2152" selection-end="2152" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="2380">
+        <state line="73" column="26" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="1241" max-vertical-offset="2516">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/output/ScreenCanvasFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="9" selection-start="5775" selection-end="5775" vertical-scroll-proportion="6.482014" vertical-offset="0" max-vertical-offset="3145">
-          <folding />
-        </state>
+        <state line="187" column="9" selection-start="5775" selection-end="5775" vertical-scroll-proportion="6.482014" vertical-offset="0" max-vertical-offset="3145" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/control/Command.java">
@@ -552,21 +486,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/SpheroExperiment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="19" selection-start="6443" selection-end="6443" vertical-scroll-proportion="-112.46154" vertical-offset="0" max-vertical-offset="3825">
+        <state line="201" column="19" selection-start="6597" selection-end="6597" vertical-scroll-proportion="0.0" vertical-offset="3417" max-vertical-offset="4420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/output/ScreenListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="42" selection-start="2375" selection-end="2375" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="3349">
+        <state line="87" column="42" selection-start="2266" selection-end="2266" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="3791">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/control/SpheroConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="38" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.5839695" vertical-offset="255" max-vertical-offset="2669">
+        <state line="58" column="38" selection-start="1668" selection-end="1668" vertical-scroll-proportion="-0.6498471" vertical-offset="986" max-vertical-offset="2669">
           <folding />
         </state>
       </provider>
